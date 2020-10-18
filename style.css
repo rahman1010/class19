@@ -1,0 +1,149 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.Services{
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	padding: 100px 0px;
+}
+.col-1 h1{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+	text-align: center;
+	color: #333;
+}
+.col-1 p{
+	padding: 0px 200px;
+	font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8;
+	text-align: center;
+	color: #666;
+	margin-top: 20px;
+}
+.col-2{
+	margin-top: 50px;
+	padding: 50px 0px;
+	background-color: #0298e4;
+	width: 29%;
+	float: left;
+	margin-right: 50px;
+}
+.col-3{
+	margin-top: 50px;
+	padding: 50px 0px;
+	background-color: #1321ea;
+	width: 29%;
+	float: left;
+	margin-right: 50px;
+}
+.col-4{
+	margin-top: 50px;
+	padding: 50px 0px;
+	background-color: #000;
+	width: 29%;
+	float: left;
+}
+.col-2 img{
+	margin: auto;
+	display: block;
+
+}
+.col-2 h3{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.7em;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.col-2 p{
+	font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	line-height: 1.8;
+	font-weight: 700;
+	padding: 0px 60px;
+}
+.col-3 img{
+	margin: auto;
+	display: block;
+}
+.col-3 h3{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.7em;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.col-3 p{
+	font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	line-height: 1.8;
+	font-weight: 700;
+	padding: 0px 60px;
+}
+.col-4 img{
+	margin: auto;
+	display: block;
+}
+.col-4 h3{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.7em;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.col-4 p{
+	font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	line-height: 1.8;
+	font-weight: 700;
+	padding: 0px 60px;
+}
+.col-5 img{
+	background-image: cover;
+}
+@media(max-width: 980px){
+	.col-2{
+		width: 100%;
+		float: none;
+	}
+	.col-3{
+		width: 100%;
+		float: none;
+	}
+	.col-4{
+		width: 100%;
+		float: none;
+	}
+	.col-2 p{
+		margin-bottom: 0px;
+	}
+	.col-1 p{
+		padding: 0px 10px;
+	}
+	.col-5 img{
+		padding: 0px 60px 0px 0px;
+	}
+}
+
